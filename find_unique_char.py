@@ -23,7 +23,7 @@ class UniqueLetterFinder:
 
         return None
 
-# Пример использования:
+# Example
 finder = UniqueLetterFinder("""
 The Tao gave birth to machine language.  Machine language gave birth
 to the assembler.
@@ -36,4 +36,4 @@ But do not program in COBOL if you can avoid it.
 -- Geoffrey James, "The Tao of Programming"
 """)
 print(finder.find_unique_letters())
-print(finder.find_first_unique_letter())
+print(finder.find_first_unique_letter()) # Return 'm'
